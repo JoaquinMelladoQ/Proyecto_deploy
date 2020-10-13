@@ -6,7 +6,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
   </head>
 
   <body class="is-preload">
@@ -30,7 +30,7 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><%= link_to "Inicio", pages_index_path%></li>
+							<li><%= link_to "Index", pages_index_path%></li>
 							<li><%= link_to"About", pages_about_path%></li>
 						</ul>
 					</nav>
@@ -52,6 +52,6 @@
 					</footer>
 
 			</div>
-      <%= javascript_include_tag 'application' %>
-  </body>
+    </body>
+    <%= javascript_include_tag 'application' %>
 </html>
